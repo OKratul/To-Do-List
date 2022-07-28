@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container-fluid{
+    padding: 200px 50px;
+    background-image: linear-gradient( 179.2deg,  rgba(34,34,34,1) 0%, rgba(8,0,153,1) 29.7%, rgba(118,6,166,1) 63.4%, rgba(233,0,64,0.58) 100.1% );
+}
+.list-container{
+    text-align: center;
+    margin-bottom: 50px;
+    color: azure;
+}
+.container h2{
+   color: azure;
+}
+.btnn{
+    margin-left: -64px;
+    padding: 10px 10px;
+    position: absolute;
+    border: 1px solid #000;
+    border-left: none;
+    background-image: radial-gradient( circle farthest-corner at 50.3% 44.5%,  rgba(116,147,179,1) 0%, rgba(62,83,104,1) 100.2% );
+    cursor: pointer;
+    border-radius: 0px 6px 6px 0px;    
+}
+.list-container input{
+    background-image: radial-gradient( circle farthest-corner at 50.3% 44.5%,  rgba(116,147,179,1) 0%, rgba(62,83,104,1) 100.2% );
+    border: 1px solid #000;
+    padding: 5px 10px !important;
+    border-right: none !important;
+    width: 50%;
+    height: 46px !important;
+    border-radius: 6px 0px 0px 6px !important;
+    color: #fff !important;
+}
+#list::placeholder{
+    color: rgb(53, 51, 51) !important;
+}
+.total-list{
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(350px,400px));
+    justify-content: center;
+    
+}
+.list{
+    margin: 20px;
+    border: 1px solid #000;
+    padding: 20px;
+    line-height: 20px;
+    word-wrap: break-word;
+    border: 1px solid #fff;
+}
+.text{
+    display: flex;
+    justify-content: center;
+}
+.text input{
+    background-image: radial-gradient( circle farthest-corner at 50.3% 44.5%,  rgba(116,147,179,1) 0%, rgba(62,83,104,1) 100.2% );
+    border: 1px solid #000;
+    border-radius: 5px !important;
+    padding: 5px 10px;
+    height: 100px;
+    width: 50%;
+    margin-top: 10px;
+    text-align: left;
+}
+.text input::placeholder{
+    color:rgb(70, 69, 69);    
+}
+.delete{
+    background: transparent;
+    font-size: 20px;
+    border: 1px solid #000;
+    padding: 5px 10px;
+    color: #fff;
+    font-weight: 200;
+}
+#edit{
+    background: transparent;
+    font-size: 20px;
+    border: 1px solid #000;
+    padding: 5px 10px;
+    color: #fff;
+    font-weight: 200;
+}
+#save{
+    background: transparent;
+    font-size: 20px;
+    border: 1px solid #000;
+    padding: 5px 10px;
+    color: #fff;
+    font-weight: 200;
+}
+
+.dele{
+    display: none;
+}
